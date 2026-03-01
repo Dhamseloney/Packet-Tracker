@@ -1,0 +1,12 @@
+configure terminal
+
+vlan 100
+ name ADMIN
+
+vlan 200
+ name SALES
+
+vlan 30
+ name CCTV
+
+exit
